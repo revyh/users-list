@@ -1,0 +1,27 @@
+<% require('misc/robots.txt') %>
+<% require('misc/favicon.ico') %>
+<% var files = htmlWebpackPlugin.files %>
+<!DOCTYPE html>
+<html lang="en" style="font-family: 'Roboto', sans-serif">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Users list</title>
+  <meta name="description" content="Users list app">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet">
+  <link href="<%= require('misc/apple-touch-icon.png') %>" rel="apple-touch-icon">
+
+  <% for (var css in files.css) { %>
+    <link href="<%= files.css[css] %>" rel="stylesheet">
+  <% } %>
+
+  <% for (var js in files.js) { %>
+    <script src="<%= files.js[js] %>" async></script>
+  <% } %>
+
+</head>
+<body style="font-size: 16px; line-height: 1.5; margin: 0">
+  <div id="react-root"></div>
+</body>
+</html>
