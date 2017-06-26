@@ -1,0 +1,144 @@
+---
+  rules:
+
+    # Possible Errors
+    no-await-in-loop: error
+    no-extra-parens:
+      - error
+      - all
+      -
+        conditionalAssign: false
+        returnAssign: false
+        nestedBinaryExpressions: false
+        enforceForArrowConditionals: false
+    no-template-curly-in-string: error
+
+    # Best Practices
+    class-methods-use-this: warn
+    no-case-declarations: error
+    no-empty-pattern: error
+    no-return-await: error
+    prefer-promise-reject-errors:
+      - error
+      -
+        allowEmptyReject: false
+    require-await: error
+
+    # Variables
+    no-unused-vars:
+      - error
+      -
+        vars: all
+        args: after-used
+        ignoreRestSiblings: true
+        caughtErrors: none
+    no-use-before-define:
+      - error
+      -
+        functions: true
+        classes: true
+        variables: true
+
+    # Stylistic Issues
+    comma-dangle:
+      - warn
+      -
+        arrays: always-multiline
+        objects: always-multiline
+        imports: always-multiline
+        exports: always-multiline
+        functions: always-multiline
+    no-underscore-dangle:
+      - warn
+      -
+        allowAfterThis: true
+        allowAfterSuper: true
+    padded-blocks:
+      - warn
+      -
+        blocks: never
+        classes: never
+        switches: never
+    quotes:
+      - warn
+      - single
+      -
+        avoidEscape: true
+        allowTemplateLiterals: true
+    space-before-function-paren:
+      - warn
+      -
+        anonymous: never
+        named: never
+        asyncArrow: always
+    template-tag-spacing: [warn, never]
+
+    # ES2015+
+    arrow-body-style:
+      - warn
+      - as-needed
+      -
+        requireReturnForObjectLiteral: false
+    arrow-parens:
+      - warn
+      - as-needed
+      -
+        requireForBlockBody: false
+    arrow-spacing:
+      - warn
+      -
+        before: true
+        after: true
+    constructor-super: error
+    generator-star-spacing: [warn, after]
+    no-class-assign: error
+    no-confusing-arrow:
+      - error
+      -
+        allowParens: true
+    no-const-assign: error
+    no-dupe-class-members: error
+    no-duplicate-imports:
+      - error
+      -
+        includeExports: false
+    no-new-symbol: error
+    no-restricted-imports: off
+    no-this-before-super: error
+    no-useless-computed-key: warn
+    no-useless-constructor: warn
+    no-useless-rename:
+      - warn
+      -
+        ignoreImport: false
+        ignoreExport: false
+        ignoreDestructuring: false
+    no-var: error
+    object-shorthand:
+      - warn
+      - always
+      -
+        avoidQuotes: true
+        ignoreConstructors: true
+        avoidExplicitReturnArrows: true
+    prefer-arrow-callback:
+      - warn
+      -
+        allowNamedFunctions: false
+        allowUnboundThis: true
+    prefer-const:
+      - error
+      -
+        destructuring: all
+        ignoreReadBeforeAssign: false
+    prefer-destructuring: off
+    prefer-numeric-literals: warn
+    prefer-rest-params: warn
+    prefer-spread: warn
+    prefer-template: warn
+    require-yield: error
+    rest-spread-spacing: [warn, never]
+    sort-imports: off
+    symbol-description: warn
+    template-curly-spacing: [warn, never]
+    yield-star-spacing: [warn, after]

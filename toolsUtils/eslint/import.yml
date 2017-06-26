@@ -1,0 +1,61 @@
+---
+  plugins:
+    - import
+  rules:
+
+    # Static analysis
+    import/no-unresolved:
+      - error
+      -
+        commonjs: false
+        amd: false
+        caseSensitive: true
+    import/named: error
+    import/default: error
+    import/namespace:
+      - error
+      -
+        allowComputed: false
+    import/no-restricted-paths: off    # Project specific
+    import/no-absolute-path: error
+    import/no-dynamic-require: warn
+    import/no-internal-modules: off    # Project specific
+    import/no-webpack-loader-syntax: error
+
+    # Helpful warnings
+    import/export: error
+    import/no-named-as-default: warn
+    import/no-named-as-default-member: warn
+    import/no-deprecated: off
+    import/no-extraneous-dependencies: off
+    import/no-mutable-exports: warn
+
+    # Module systems
+    import/unambiguous: warn
+    import/no-commonjs: off    # Project specific
+    import/no-amd: off    # Project specific
+    import/no-nodejs-modules: off    # Project specific
+
+    # Style guide
+    import/first: error
+    import/no-duplicates: error
+    import/no-namespace: off
+    import/extensions: off    # Project specific
+    import/order:
+      - warn
+      -
+        groups:
+          - builtin
+          - external
+          - parent
+          - sibling
+          - index
+    import/newline-after-import:
+      - warn
+      -
+        count: 1
+    import/prefer-default-export: warn
+    import/max-dependencies: off
+    import/no-unassigned-import: off
+    import/no-named-default: warn
+    import/no-anonymous-default-export: warn

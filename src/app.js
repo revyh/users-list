@@ -1,3 +1,5 @@
+/* eslint-env commonjs */
+
 import 'core-js';
 
 import App from 'components/App';

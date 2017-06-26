@@ -1,0 +1,34 @@
+---
+  parserOptions:
+    ecmaVersion: 2017
+    sourceType: module
+    ecmaFeatures:
+      jsx: true
+      experimentalObjectRestSpread: true
+  parser: babel-eslint
+  env:
+    browser: true
+    es6: true
+  globals:
+    global: false
+  root: true
+  settings:
+    import/resolver: webpack
+    import/extensions: ['.js', '.jsx']
+    import/cache:
+      lifetime: Infinity
+  extends:
+    - ../toolsUtils/eslint/es5.yml
+    - ../toolsUtils/eslint/es2015+.yml
+    - ../toolsUtils/eslint/babel.yml
+    - ../toolsUtils/eslint/react.yml
+    - ../toolsUtils/eslint/import.yml
+
+  rules:
+    import/extensions:
+      - error
+      - always
+      -
+        js: never
+        json: never
+        jsx: never

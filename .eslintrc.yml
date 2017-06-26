@@ -1,0 +1,13 @@
+---
+  parserOptions:
+    ecmaVersion: 2017
+    sourceType: script
+  env:
+    node: true
+    commonjs: true
+    es6: true
+  root: true
+  extends:
+    - ./toolsUtils/eslint/es5.yml
+    - ./toolsUtils/eslint/es2015+.yml
+    - ./toolsUtils/eslint/node.yml

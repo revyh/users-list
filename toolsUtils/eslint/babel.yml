@@ -1,0 +1,18 @@
+---
+  plugins:
+    - babel
+  rules:
+    object-curly-spacing: off
+    semi: off
+
+    babel/object-curly-spacing:
+      - warn
+      - never
+      -
+        arraysInObjects: false
+        objectsInObjects: false
+    babel/semi:
+      - error
+      - always
+      -
+        omitLastInOneLineBlock: false
