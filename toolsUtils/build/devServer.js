@@ -9,6 +9,7 @@ function devServer(config, {dist}) {
       port: 1337,
       compress: true,
       publicPath: '/',
+      historyApiFallback: true,
     },
   });
 }
