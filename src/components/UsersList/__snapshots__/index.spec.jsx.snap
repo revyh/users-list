@@ -1,0 +1,459 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<List
+  style={
+    Object {
+      "border": "1px solid #e0e0e0",
+    }
+  }
+>
+  <Subheader
+    inset={false}
+  >
+    Settings
+  </Subheader>
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    onTouchTap={[Function]}
+    open={null}
+    primaryText="Group by department"
+    primaryTogglesNestedList={false}
+    rightToggle={
+      <Toggle
+        defaultToggled={false}
+        disabled={false}
+        labelPosition="left"
+        toggled={false}
+      />
+    }
+    secondaryTextLines={1}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    onTouchTap={[Function]}
+    open={null}
+    primaryText="Sort by name"
+    primaryTogglesNestedList={false}
+    rightIcon={<AvSortByAlpha />}
+    secondaryTextLines={1}
+  />
+  <Divider
+    inset={false}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    primaryText="SomeLastName SomeFirstName"
+    primaryTogglesNestedList={false}
+    secondaryText="Some department"
+    secondaryTextLines={1}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    primaryText="AnotherLastName AnotherFirstName"
+    primaryTogglesNestedList={false}
+    secondaryText="Another department"
+    secondaryTextLines={1}
+  />
+</List>
+`;
+
+exports[`should render grouped 1`] = `
+<List
+  style={
+    Object {
+      "border": "1px solid #e0e0e0",
+    }
+  }
+>
+  <Subheader
+    inset={false}
+  >
+    Settings
+  </Subheader>
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    onTouchTap={[Function]}
+    open={null}
+    primaryText="Group by department"
+    primaryTogglesNestedList={false}
+    rightToggle={
+      <Toggle
+        defaultToggled={false}
+        disabled={false}
+        labelPosition="left"
+        toggled={true}
+      />
+    }
+    secondaryTextLines={1}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    onTouchTap={[Function]}
+    open={null}
+    primaryText="Sort by name"
+    primaryTogglesNestedList={false}
+    rightIcon={<AvSortByAlpha />}
+    secondaryTextLines={1}
+  />
+  <Divider
+    inset={false}
+  />
+  <Subheader
+    inset={false}
+  >
+    Some department
+  </Subheader>
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    primaryText="SomeLastName SomeFirstName"
+    primaryTogglesNestedList={false}
+    secondaryText={null}
+    secondaryTextLines={1}
+  />
+  <Subheader
+    inset={false}
+  >
+    Another department
+  </Subheader>
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    primaryText="AnotherLastName AnotherFirstName"
+    primaryTogglesNestedList={false}
+    secondaryText={null}
+    secondaryTextLines={1}
+  />
+</List>
+`;
+
+exports[`should render ordered 1`] = `
+<List
+  style={
+    Object {
+      "border": "1px solid #e0e0e0",
+    }
+  }
+>
+  <Subheader
+    inset={false}
+  >
+    Settings
+  </Subheader>
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    onTouchTap={[Function]}
+    open={null}
+    primaryText="Group by department"
+    primaryTogglesNestedList={false}
+    rightToggle={
+      <Toggle
+        defaultToggled={false}
+        disabled={false}
+        labelPosition="left"
+        toggled={false}
+      />
+    }
+    secondaryTextLines={1}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    onTouchTap={[Function]}
+    open={null}
+    primaryText="Sort by name"
+    primaryTogglesNestedList={false}
+    rightIcon={<NavigationArrowUpward />}
+    secondaryTextLines={1}
+  />
+  <Divider
+    inset={false}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    primaryText="SomeLastName SomeFirstName"
+    primaryTogglesNestedList={false}
+    secondaryText="Some department"
+    secondaryTextLines={1}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    primaryText="AnotherLastName AnotherFirstName"
+    primaryTogglesNestedList={false}
+    secondaryText="Another department"
+    secondaryTextLines={1}
+  />
+</List>
+`;
+
+exports[`should render ordered 2`] = `
+<List
+  style={
+    Object {
+      "border": "1px solid #e0e0e0",
+    }
+  }
+>
+  <Subheader
+    inset={false}
+  >
+    Settings
+  </Subheader>
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    onTouchTap={[Function]}
+    open={null}
+    primaryText="Group by department"
+    primaryTogglesNestedList={false}
+    rightToggle={
+      <Toggle
+        defaultToggled={false}
+        disabled={false}
+        labelPosition="left"
+        toggled={false}
+      />
+    }
+    secondaryTextLines={1}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    onTouchTap={[Function]}
+    open={null}
+    primaryText="Sort by name"
+    primaryTogglesNestedList={false}
+    rightIcon={<NavigationArrowDownward />}
+    secondaryTextLines={1}
+  />
+  <Divider
+    inset={false}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    primaryText="SomeLastName SomeFirstName"
+    primaryTogglesNestedList={false}
+    secondaryText="Some department"
+    secondaryTextLines={1}
+  />
+  <ListItem
+    autoGenerateNestedIndicator={true}
+    containerElement="span"
+    disableKeyboardFocus={false}
+    disabled={false}
+    initiallyOpen={false}
+    insetChildren={false}
+    nestedItems={Array []}
+    nestedLevel={0}
+    onKeyboardFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onNestedListToggle={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    primaryText="AnotherLastName AnotherFirstName"
+    primaryTogglesNestedList={false}
+    secondaryText="Another department"
+    secondaryTextLines={1}
+  />
+</List>
+`;
