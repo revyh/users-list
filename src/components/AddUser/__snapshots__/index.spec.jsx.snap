@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<div>
+  <FloatingActionButton
+    disabled={false}
+    mini={false}
+    onTouchTap={[Function]}
+    secondary={false}
+    zDepth={2}
+  >
+    <ContentAdd />
+  </FloatingActionButton>
+  <Dialog
+    actions={
+      Array [
+        <FlatButton
+          disabled={false}
+          fullWidth={false}
+          label="Cancel"
+          labelPosition="after"
+          labelStyle={Object {}}
+          onKeyboardFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchStart={[Function]}
+          onTouchTap={[Function]}
+          primary={true}
+          secondary={false}
+      />,
+        <FlatButton
+          disabled={false}
+          fullWidth={false}
+          label="Add"
+          labelPosition="after"
+          labelStyle={Object {}}
+          onKeyboardFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchStart={[Function]}
+          onTouchTap={[Function]}
+          primary={true}
+          secondary={false}
+      />,
+      ]
+    }
+    autoDetectWindowHeight={true}
+    autoScrollBodyContent={false}
+    modal={false}
+    onRequestClose={[Function]}
+    open={false}
+    repositionOnUpdate={true}
+    title="Add user"
+  >
+    <TextField
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText={
+        <span>
+          First name 
+          <RequiredMark />
+        </span>
+      }
+      fullWidth={true}
+      keyboardFocused={true}
+      multiLine={false}
+      onChange={[Function]}
+      rows={1}
+      type="text"
+      underlineShow={true}
+      value=""
+    />
+    <TextField
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText={
+        <span>
+          Last name 
+          <RequiredMark />
+        </span>
+      }
+      fullWidth={true}
+      multiLine={false}
+      onChange={[Function]}
+      rows={1}
+      type="text"
+      underlineShow={true}
+      value=""
+    />
+    <TextField
+      disabled={false}
+      floatingLabelFixed={false}
+      floatingLabelText="department"
+      fullWidth={true}
+      multiLine={false}
+      onChange={[Function]}
+      rows={1}
+      type="text"
+      underlineShow={true}
+      value=""
+    />
+  </Dialog>
+</div>
+`;

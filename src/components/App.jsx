@@ -3,6 +3,7 @@ import {Route, Switch} from 'react-router-dom';
 import Menu from 'components/Menu';
 import Home from 'components/Home';
 import UsersList from 'components/UsersList';
+import AddUser from 'components/AddUser';
 
 const styles = {
   display: 'flex',
@@ -20,6 +21,12 @@ const menuLinks = [
   {route: '/list', name: 'List'},
 ];
 
+const addUserStyles = {
+  position: 'fixed',
+  bottom: '30px',
+  right: '30px',
+};
+
 const users = [];
 for (let i = 0; i < 30; i++)
   users.push({
@@ -34,6 +41,7 @@ function List() {
     <div style={listStyles}>
       <h2 style={{fontWeight: 'normal'}}>Users list</h2>
       <UsersList users={users} order="ascending" />
+      <AddUser style={addUserStyles} />
     </div>
   );
 }
