@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Menu from 'components/Menu';
 import Home from 'components/Home';
-import UsersList from 'components/UsersList';
+import UsersList from 'containers/UsersList';
 import AddUser from 'components/AddUser';
 
 const styles = {
@@ -27,20 +27,11 @@ const addUserStyles = {
   right: '30px',
 };
 
-const users = [];
-for (let i = 0; i < 30; i++)
-  users.push({
-    id: `user${i}`,
-    firstName: 'John',
-    lastName: 'Doe',
-    department: 'some department',
-  });
-
 function List() {
   return (
     <div style={listStyles}>
       <h2 style={{fontWeight: 'normal'}}>Users list</h2>
-      <UsersList users={users} order="ascending" />
+      <UsersList />
       <AddUser style={addUserStyles} />
     </div>
   );
