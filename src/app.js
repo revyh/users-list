@@ -2,7 +2,7 @@
 
 import 'utils/polyfills';
 
-import App from 'components/App';
+import App from 'containers/App';
 import configureStore from 'configureStore';
 import renderApp from 'utils/renderApp';
 import waitPageLoad from 'utils/waitPageLoad';
@@ -13,8 +13,8 @@ const store = configureStore(reducer);
 waitPageLoad().then(() => renderApp(App, store));
 
 if (module.hot) {
-  module.hot.accept('./components/App', () => {
-    import('components/App').then(
+  module.hot.accept('./containers/App', () => {
+    import('containers/App').then(
       ({'default': NextApp}) => renderApp(NextApp, store),
     );
   });
