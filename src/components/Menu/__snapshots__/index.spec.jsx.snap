@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<div>
+  <IconButton
+    disableTouchRipple={false}
+    disabled={false}
+    iconStyle={Object {}}
+    onTouchTap={[Function]}
+    style={
+      Object {
+        "left": "5px",
+        "position": "fixed",
+        "top": "5px",
+      }
+    }
+    tooltip="Open menu"
+    tooltipPosition="bottom-center"
+    touch={false}
+  >
+    <NavigationMenu />
+  </IconButton>
+  <Drawer
+    disableSwipeToOpen={false}
+    docked={false}
+    onRequestChange={[Function]}
+    open={false}
+    openSecondary={false}
+    swipeAreaWidth={30}
+    width={200}
+    zDepth={2}
+  >
+    <Link
+      replace={false}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+      to="/some-route"
+    >
+      <MenuItem
+        anchorOrigin={
+          Object {
+            "horizontal": "right",
+            "vertical": "top",
+          }
+        }
+        checked={false}
+        desktop={false}
+        disabled={false}
+        focusState="none"
+        insetChildren={false}
+        onTouchTap={[Function]}
+        targetOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        Some Name
+      </MenuItem>
+    </Link>
+    <Link
+      replace={false}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+      to="/another-route"
+    >
+      <MenuItem
+        anchorOrigin={
+          Object {
+            "horizontal": "right",
+            "vertical": "top",
+          }
+        }
+        checked={false}
+        desktop={false}
+        disabled={false}
+        focusState="none"
+        insetChildren={false}
+        onTouchTap={[Function]}
+        targetOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        Another Name
+      </MenuItem>
+    </Link>
+  </Drawer>
+</div>
+`;
+
+exports[`should render in opened state 1`] = `
+<div>
+  <IconButton
+    disableTouchRipple={false}
+    disabled={false}
+    iconStyle={Object {}}
+    onTouchTap={[Function]}
+    style={
+      Object {
+        "left": "5px",
+        "position": "fixed",
+        "top": "5px",
+      }
+    }
+    tooltip="Open menu"
+    tooltipPosition="bottom-center"
+    touch={false}
+  >
+    <NavigationMenu />
+  </IconButton>
+  <Drawer
+    disableSwipeToOpen={false}
+    docked={false}
+    onRequestChange={[Function]}
+    open={true}
+    openSecondary={false}
+    swipeAreaWidth={30}
+    width={200}
+    zDepth={2}
+  >
+    <Link
+      replace={false}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+      to="/some-route"
+    >
+      <MenuItem
+        anchorOrigin={
+          Object {
+            "horizontal": "right",
+            "vertical": "top",
+          }
+        }
+        checked={false}
+        desktop={false}
+        disabled={false}
+        focusState="none"
+        insetChildren={false}
+        onTouchTap={[Function]}
+        targetOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        Some Name
+      </MenuItem>
+    </Link>
+    <Link
+      replace={false}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+      to="/another-route"
+    >
+      <MenuItem
+        anchorOrigin={
+          Object {
+            "horizontal": "right",
+            "vertical": "top",
+          }
+        }
+        checked={false}
+        desktop={false}
+        disabled={false}
+        focusState="none"
+        insetChildren={false}
+        onTouchTap={[Function]}
+        targetOrigin={
+          Object {
+            "horizontal": "left",
+            "vertical": "top",
+          }
+        }
+      >
+        Another Name
+      </MenuItem>
+    </Link>
+  </Drawer>
+</div>
+`;
