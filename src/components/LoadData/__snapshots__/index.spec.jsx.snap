@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<div>
+  some content
+  <Snackbar
+    action="Try again"
+    message="Sorry, something went wrong."
+    onActionTouchTap={[Function]}
+    open={false}
+  />
+</div>
+`;
+
+exports[`should render failed 1`] = `
+<div>
+  some content
+  <Snackbar
+    action="Try again"
+    message="Sorry, something went wrong."
+    onActionTouchTap={[Function]}
+    open={true}
+  />
+</div>
+`;
+
+exports[`should render loading 1`] = `
+<CircularProgress
+  max={100}
+  min={0}
+  mode="indeterminate"
+  size={80}
+  style={
+    Object {
+      "display": "block",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+    }
+  }
+  thickness={5}
+  value={0}
+/>
+`;
