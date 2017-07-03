@@ -1,0 +1,8 @@
+{
+  "name": "users-list",
+  "version": "0.0.1",
+  "description": "users list app",
+  "main": "src/app.js",
+  "author": "revyh <revyh@mail.ru>",
+  "license": "MIT"
+}
