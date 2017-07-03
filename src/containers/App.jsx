@@ -3,6 +3,7 @@ import {Route, Switch} from 'react-router-dom';
 import Menu from 'components/Menu';
 import Home from 'components/Home';
 import UsersList from 'containers/UsersList';
+import LoadUsers from 'containers/LoadUsers';
 import AddUser from 'containers/AddUser';
 
 const styles = {
@@ -31,7 +32,9 @@ function List() {
   return (
     <div style={listStyles}>
       <h2 style={{fontWeight: 'normal'}}>Users list</h2>
-      <UsersList />
+      <LoadUsers>
+        <UsersList />
+      </LoadUsers>
       <AddUser style={addUserStyles} />
     </div>
   );
