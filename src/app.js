@@ -1,6 +1,6 @@
 /* eslint-env commonjs */
 
-import 'core-js';
+import 'utils/polyfills';
 
 import App from 'components/App';
 import renderApp from 'utils/renderApp';

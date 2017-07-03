@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.(js|jsx)$': 'babel-jest',
     '^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)$': '<rootDir>/toolsUtils/stubFileByName.js',
   },
-  setupFiles: [require.resolve('core-js')],
+  setupFiles: ['<rootDir>/src/utils/polyfills'],
 };
